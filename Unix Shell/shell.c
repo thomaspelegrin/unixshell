@@ -17,7 +17,6 @@
 /**************************** Constants ***************************************/
 
 #define HIST_SIZE 5
-#define MIN_CHOICE 1
 
 /*******************************************************************************
  *                            Functions
@@ -27,7 +26,7 @@
 /// @param cmd_p the command to add the argument to
 /// @param in_buf the input buffer
 /// @param len the length of the argument text
-void extract_arg( cmd_t * cmd_p, string_t in_buf, int len )
+void extract_arg(cmd_t * cmd_p, string_t in_buf, int len)
 {
     START_FUNC;
 
